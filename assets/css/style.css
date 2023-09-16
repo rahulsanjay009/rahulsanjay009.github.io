@@ -257,8 +257,9 @@ h6 {
   min-width: 300px;
 }
 
+
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -341,7 +342,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-family: 'Alegreya', serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight:300;
 }
 
@@ -357,16 +358,19 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  font-size: 18px;
 }
 
 .about .content ul strong {
   margin-right: 10px;
+  font-size: 18px;
 }
 
 .about .content ul i {
@@ -382,14 +386,14 @@ section {
 
 .about .fst-italic{
   font-family: 'Alegreya', serif;
-  font-size: 13px;
+  font-size: 18px;
   font-style: italic;
   font-weight: 200;
 }
 
 .about span,p{
   font-family: 'Alegreya', serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 200;
 }
 
@@ -490,6 +494,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size:16px;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -554,6 +559,7 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 .resume .resume-item:last-child {
@@ -1246,7 +1252,7 @@ section {
 
 .typing::after{
   content:"";
-  animation: blink 0.5s infinite ease;
+  animation: blink 1s infinite ease;
 }
 
 #navbar span{
